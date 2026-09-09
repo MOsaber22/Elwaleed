@@ -1,10 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaPhone, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   const { t } = useTranslation();
   const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER;
+  const phoneNumber = import.meta.env.VITE_CONTACT_PHONE || whatsappNumber;
   const email = import.meta.env.VITE_CONTACT_EMAIL || "exportelwaleed@gmail.com";
   const facebookUrl = import.meta.env.VITE_FACEBOOK_URL || "https://www.facebook.com/";
   const instagramUrl = import.meta.env.VITE_INSTAGRAM_URL || "https://www.instagram.com/";
@@ -34,6 +35,9 @@ const Footer = () => {
             </a>
             <a className="group flex items-center gap-3 text-base text-brand-mist/70 transition hover:text-[#E1306C]" href={instagramUrl} target="_blank" rel="noreferrer">
               <FaInstagram className="text-2xl transition group-hover:text-[#E1306C]" aria-hidden="true" /> Instagram
+            </a>
+            <a className="group flex items-center gap-3 text-base text-brand-mist/70 transition hover:text-brand-gold" href={`tel:${phoneNumber}`}>
+              <FaPhone className="text-2xl transition group-hover:text-brand-gold" aria-hidden="true" /> +{phoneNumber}
             </a>
           </div>
         </div>
