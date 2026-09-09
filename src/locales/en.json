@@ -1,0 +1,227 @@
+{
+  "navbar": {
+    "logo": "ELWALEED EXPORTS",
+    "about": "About",
+    "products": "Products",
+    "ourProcess": "Our Process",
+    "facility": "Facility",
+    "markets": "Markets",
+    "contact": "Contact",
+    "quote": "Request a Quote"
+  },
+
+  "hero": {
+    "logo": "ELWALEED EXPORTS",
+    "title": "Egyptian Fresh Produce Exporter",
+    "subtitle": "From Our Farmsto Your Market.",
+    "description": "We grow it. We pack it. We export it. Premium Egyptian fresh produce, carefully selected, professionally packed, and delivered to international markets.",
+    "products": "Explore Products",
+    "quote": "Request a Quote"
+  },
+
+  "about": {
+    "title": "About ELWALEED EXPORTS",
+    "heading": "From our farms to our packing station to your market.",
+    "description": "ELWALEED EXPORT connects Egyptian agriculture with international buyers through an integrated approach to sourcing, packing, cooling, preparation and export logistics.",
+    "description2": "We cultivate our produce and operate our packing facility, giving us greater control over quality and handling from harvest to shipment.",
+    "aboutConclusion": "We grow it. We pack it. We export it."
+  },
+
+  "products": {
+    "title": "Our Products",
+    "heading": "Premium Egyptian Produce",
+    "description": "Selected for international markets and prepared according to product, market and buyer requirements.",
+    "quote": "Request a Quote",
+    "orange": {
+      "name": "Egyptian Oranges",
+      "description": "Fresh, carefully selected citrus for export markets."
+    },
+    "mandarins": {
+      "name": "Mandarins",
+      "description": "Fresh Egyptian mandarins prepared for shipment."
+    },
+    "lemons": {
+      "name": "Lemons",
+      "description": "Premium citrus selected for quality and freshness."
+    },
+    "grapes": {
+      "name": "Grapes",
+      "description": "Egyptian grapes for wholesale and export programs."
+    },
+    "mangoes": {
+      "name": "Mangoes",
+      "description": "Selected Egyptian mangoes for global buyers."
+    },
+    "pomegranates": {
+      "name": "Pomegranates",
+      "description": "Fresh pomegranates prepared for international markets."
+    },
+    "onions": {
+      "name": "Onions",
+      "description": "Fresh Egyptian onions, selected and packed for export."
+    },
+    "frozenFruits": {
+      "name": "Frozen Fruits",
+      "description": "Frozen fruit solutions for international buyers."
+    }
+  },
+
+  "process": {
+    "title": "From Farm to Your Market",
+    "heading": "Quality under control at every step.",
+    "overview": "An integrated journey designed to protect freshness and consistency from harvest to international delivery.",
+    "steps": {
+      "farm": {
+        "name": "1 - Farms",
+        "title": "Harvest",
+        "description": "Produce begins at our farms, where cultivation and harvesting are carefully managed."
+      },
+      "selection": {
+        "name": "2 - Selection",
+        "title": "Sorting & Grading",
+        "description": "Products are sorted, graded and checked before packing."
+      },
+      "packaging": {
+        "name": "3 - Packaging",
+        "title": "Our Facility",
+        "description": "Prepared, packed and handled through our packing station in Belbeis."
+      },
+      "export": {
+        "name": "4 - Export",
+        "title": "Sea Freight",
+        "description": "Container loading and export logistics connect Egypt with global markets."
+      }
+    }
+  },
+
+  "facility": {
+    "title": "Our Packing Station",
+    "heading": "RAMSES FRUITS",
+    "station": "Belbeis, Sharqia, Egypt",
+    "description": "A complete packing and export facility supporting sorting, grading, quality control, packing, cooling and container loading.",
+    "features": {
+      "sorting": {
+        "name": "Sorting",
+        "description": "Careful product selection"
+      },
+      "grading": {
+        "name": "Grading",
+        "description": "Market-ready classification"
+      },
+      "qualityControl": {
+        "name": "Quality Control",
+        "description": "Attention at each stage"
+      },
+      "packing": {
+        "name": "Packing",
+        "description": "Products are carefully packed to maintain freshness during transport."
+      },
+      "cooling": {
+        "name": "Cooling",
+        "description": "Cold handling support"
+      },
+      "loading": {
+        "name": "Loading",
+        "description": "Export container preparation"
+      }
+    }
+  },
+
+  "office": {
+    "title": "Our Office",
+    "heading": "ELWALEED EXPORTS Office",
+    "station": "Arkan Palm - Sheikh Zayed, Egypt",
+    "description": "Our commercial office supports international customer communication, quotations, export coordination and buyer requirements.",
+    "contact": "Contact our Team"
+  },
+
+  "leadership": {
+    "title": "OUR LEADERSHIP",
+    "leaders": {
+      "waleed": {
+        "name": "Dr. Waleed Hammad",
+        "position": "Owner & Founder"
+      },
+      "amr": {
+        "name": "Mr.Amr Elwaleed",
+        "position": "President & Managing Director"
+      }
+    }
+  },
+
+  "markets": {
+    "title": "SELECTED MARKETS",
+    "heading": "Some of the Markets We Have Exported To & Worked With",
+    "description": "Some of the countries and markets we have exported to and worked with, include:",
+    "countries": {
+      "russia": "Russia",
+      "morocco": "Morocco",
+      "qatar": "Qatar",
+      "uae": "UAE",
+      "unitedKingdom": "United Kingdom",
+      "saudiArabia": "Saudi Arabia"
+    }
+  },
+
+  "whyUs": {
+    "title": "Why ELWALEED EXPORT?",
+    "heading": "Built around control, quality and reliability.",
+    "reasons": {
+      "origin": {
+        "name": "Egyptian Origin",
+        "description": "Fresh produce from Egypt."
+      },
+      "selection": {
+        "name": "Professional Selection",
+        "description": "Sorting and grading before packing."
+      },
+      "integration": {
+        "name": "Integrated Facility",
+        "description": "Our operations through Ramses Fruit."
+      },
+      "logistics": {
+        "name": "Export Logistics",
+        "description": "Sea freight solutions for international markets."
+      },
+      "focus": {
+        "name": "Customer Focus",
+        "description": "Flexible solutions for buyer requirements."
+      }
+    }
+  },
+
+  "certifications": {
+    "title": "Certifications",
+    "heading": "Quality & Food Safety Certifications",
+    "description": "Our certifications support our commitment to quality management and food safety.",
+    "certs": {
+      "iso9001": {
+        "name": "ISO 9001",
+        "description": "Quality Management System"
+      },
+      "iso22000": {
+        "name": "ISO 22000",
+        "description": "Food Safety Management System"
+      }
+    }
+  },
+
+  "contact": {
+    "title": "Request a Quotation",
+    "heading": "Tell us what you need.",
+    "description": "Send your requirements and our export team will contact you shortly.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "quantity": "Quantity",
+      "companyName": "Company Name",
+      "WhatsAppNumber": "WhatsApp Number",
+      "destinationCountry": "Destination Country",
+      "additionalRequirements": "Additional Requirements",
+      "send": "Send Request",
+      "selectProduct": "Select Product",
+      "packagingRequirement": "Packaging Requirement"
+    },
+    "thankYou": "Thank you. Our export team will contact you shortly."
+  }
+}

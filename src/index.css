@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root { font-family: "Manrope", "Cairo", sans-serif; color: #032119; background: #fdf5e8; }
+	html { scroll-behavior: smooth; }
+	body { margin: 0; min-width: 320px; background: #fdf5e8; }
+	* { box-sizing: border-box; }
+	::selection { background: #c07a35; color: #fdf5e8; }
+}
+
+@layer components {
+	.hero-background { animation: hero-fruit-drift 18s ease-in-out infinite alternate; transform-origin: center; }
+	.container { @apply mx-auto w-[min(1180px,92%)]; }
+	.eyebrow { @apply text-[11px] font-extrabold uppercase tracking-[0.28em] text-brand-gold; }
+	.section-shell { @apply py-20 md:py-28; }
+	.section-title { @apply mt-3 max-w-3xl font-display text-4xl leading-[1.05] text-brand-deep md:text-6xl; }
+	.section-copy { @apply mt-5 max-w-2xl text-base leading-8 text-brand-green/70 md:text-lg; }
+	.button-primary { @apply inline-flex items-center justify-center rounded-full bg-brand-gold px-6 py-3 text-sm font-extrabold text-brand-warm transition hover:-translate-y-0.5 hover:bg-brand-orange; }
+	.button-outline { @apply inline-flex items-center justify-center rounded-full border border-brand-pale px-6 py-3 text-sm font-extrabold text-brand-warm transition hover:border-brand-gold hover:text-brand-pale; }
+	.line-link { @apply inline-flex items-center gap-2 text-sm font-extrabold text-brand-gold transition hover:gap-3; }
+}
+
+@keyframes hero-fruit-drift {
+	0% { transform: scale(1.02) translate3d(-1%, 0, 0); }
+	100% { transform: scale(1.1) translate3d(1%, -1%, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.hero-background { animation: none; }
+}
