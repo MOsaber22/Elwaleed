@@ -57,7 +57,11 @@ function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-brand-pale/60 bg-brand-warm/90 backdrop-blur-md">
       <div className="container flex h-[76px] items-center justify-between gap-6">
         <button type="button" className="flex items-center gap-3 text-sm font-extrabold tracking-[0.18em] text-brand-deep hover:scale-105 transition duration-300" onClick={goHome}>
-          <span className="grid h-10 w-10 place-items-center rounded-full border border-brand-gold bg-brand-deep text-lg text-brand-gold">E</span>
+          <img
+            src="/logo.jpg"
+            alt="ELWALEED EXPORT logo"
+            className="h-11 w-11 rounded-full border border-brand-gold object-cover"
+          />
           <span className="font-extrabold text-lg">ELWALEED <span className="text-brand-gold">EXPORT</span></span>
         </button>
 
