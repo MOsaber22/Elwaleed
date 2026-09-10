@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaFacebook, FaInstagram, FaPhone, FaWhatsapp } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -22,7 +23,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <p className="font-bold text-brand-warm">{t("navbar.contact")}</p>
+          <p className="font-bold text-brand-warm">{t("footer.contact")}</p>
           <div className="mt-4 space-y-4">
             <a className="group flex items-center gap-3 text-base text-brand-mist/70 transition hover:text-[#EA4335]" href={`mailto:${email}`}>
               <AiOutlineMail className="text-2xl transition group-hover:text-[#EA4335]" aria-hidden="true" /> Email: {email}
@@ -42,10 +43,19 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p className="font-bold text-brand-warm">{t("navbar.contact")}</p>
-          <a className="mt-3 block text-sm text-brand-mist/70 transition hover:text-brand-gold" href="#quote">
-            {t("navbar.quote")}
-          </a>
+          <p className="font-bold text-brand-warm">{t("footer.moreInfo")}</p>
+          <Link to="/about-us" className="mt-4 block text-base text-brand-mist/70 transition hover:text-brand-gold">
+            {t("aboutUs.title")}
+          </Link>
+          <Link to="/brands" className="mt-4 block text-base text-brand-mist/70 transition hover:text-brand-gold">
+            {t("brands.title")}
+          </Link>
+          <Link to="/leaderships" className="mt-4 block text-base text-brand-mist/70 transition hover:text-brand-gold">
+            {t("leaderships.title")}
+          </Link>
+          <Link to="/our-farms" className="mt-4 block text-base text-brand-mist/70 transition hover:text-brand-gold">
+            {t("ourFarms.title")}
+          </Link>
         </div>
       </div>
       <div className="container mt-10 border-t border-brand-mist/15 pt-5 text-xs text-brand-mist/50">

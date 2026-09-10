@@ -223,5 +223,85 @@
       "packagingRequirement": "Packaging Requirement"
     },
     "thankYou": "Thank you. Our export team will contact you shortly."
+  },
+
+  "footer": {
+    "title": "ELWALEED EXPORTS",
+    "contact": "Contact",
+    "moreInfo": "More Info"
+  },
+
+  "aboutUs": {
+    "title": "About ELWALEED EXPORT",
+    "heading": "From Our Egyptian Farms to Global Markets",
+    "description": "ELWALEED EXPORT is an Egyptian agricultural export company with its own farms and packing stations, specializing in the cultivation, packing, and export of fresh fruits and vegetables to international markets.",
+    "description2": "From cultivation and harvesting to sorting, grading, packing, and export, we maintain direct control over our products throughout the process to ensure quality, freshness, consistency, and professional handling.",
+    "whatWeDo": "What We Do",
+    "services": [
+      "Agricultural Production",
+      "Fresh Fruit & Vegetable Export",
+      "Our Own Farms",
+      "Our Own Packing Stations",
+      "Sorting & Grading",
+      "Quality Control",
+      "Professional Packaging",
+      "Export Logistics"
+    ],
+    "missionTitle": "Our Mission",
+    "mission": "To bring the quality of Egyptian agriculture to customers around the world through our own farms, packing facilities, and reliable export operations."
+  },
+
+  "brands": {
+    "title": "Brands",
+    "heading": "Our Brands",
+    "ramsesFruit": {
+      "name": "Ramses Fruit",
+      "tagline": "Premium Egyptian Agricultural Products",
+      "description": "Ramses Fruit is a dedicated brand for fresh agricultural products, inspired by Egypt’s heritage and designed for international markets."
+    },
+    "elSaifFruit": {
+      "name": "El Saif Fruit",
+      "tagline": "Freshness. Quality. From Egypt.",
+      "description": "El Saif Fruit represents carefully selected Egyptian fruits and vegetables prepared for export markets."
+    },
+    "elwaaleed": {
+      "name": "ELWALEED",
+      "tagline": "Grown in Egypt. Delivered to the World.",
+      "description": "Premium Farming. Global Export. Trusted Quality."
+    }
+  },
+
+  "leaderships": {
+    "title": "Our Leadership",
+    "heading": "Leading with vision. Growing with purpose.",
+    "waleedHammad": {
+      "name": "Dr. Waleed Hammad",
+      "position": "Founder & Owner",
+      "description": "Dr. Waleed Hammad is the Founder and Owner of ELWALEED, and the company’s primary authority and final decision-maker in Egypt, overseeing the company’s operations and strategic direction."
+    },
+    "amrElwaleed": {
+      "name": "Mr. Amr Elwaleed",
+      "position": "President & Managing Director",
+      "description": "Mr. Amr Elwaleed oversees the company’s activities from farm operations and packing stations to shipments and international business, ensuring that every detail is closely followed inside and outside Egypt. He also serves as ELWALEED’s main point of contact with clients, partners, and business associates worldwide."
+    }
+  },
+
+  "ourFarms": {
+    "title": "Our Farms",
+    "heading": "Cultivating Quality from the Ground Up",
+    "description": "Our farms are the foundation of our operations, where we cultivate high-quality produce with care and expertise.",
+    "locationsTitle": "Our Locations",
+    "locationsHeading": "Rooted in Egypt",
+    "openMap": "Open in Google Maps",
+    "locations": {
+      "ismailia": {
+        "name": "Ismailia",
+        "location": "El Tal El Kbeer, Ismailia, Egypt."
+      },
+      "second": {
+        "name": "Al-Sharqia",
+        "location": "Bilbeis, Sharqia, Egypt."
+      }
+    }
   }
 }
