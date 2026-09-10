@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const { t } = useTranslation();
   const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER;
-  const phoneNumber = import.meta.env.VITE_CONTACT_PHONE || whatsappNumber;
+  const phoneNumber = import.meta.env.VITE_CONTACT_PHONE;
   const email = import.meta.env.VITE_CONTACT_EMAIL || "exportelwaleed@gmail.com";
   const facebookUrl = import.meta.env.VITE_FACEBOOK_URL || "https://www.facebook.com/";
   const instagramUrl = import.meta.env.VITE_INSTAGRAM_URL || "https://www.instagram.com/";
