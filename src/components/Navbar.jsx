@@ -58,7 +58,7 @@ function Navbar() {
       <div className="container flex h-[76px] items-center justify-between gap-6">
         <button type="button" className="flex items-center gap-3 text-sm font-extrabold tracking-[0.18em] text-brand-deep hover:scale-105 transition duration-300" onClick={goHome}>
           <img
-            src="/logo.jpg"
+            src="/logo2.jpeg"
             alt="ELWALEED EXPORT logo"
             className="h-11 w-11 rounded-full border border-brand-gold object-cover"
           />
