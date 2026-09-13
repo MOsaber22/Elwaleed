@@ -24,6 +24,10 @@ const Leadership = ({ detailed = false }) => {
                 <img
                   src={leader.image}
                   alt={t(`leaderships.${leader.key}.name`)}
+                  loading="lazy"
+                  decoding="async"
+                  width="474"
+                  height="360"
                   className="h-full w-full object-cover"
                   style={{ objectPosition: leader.position }}
                 />

@@ -22,6 +22,10 @@ const AboutUs = () => {
             <img
               src="/elwaleed.jpeg"
               alt="ELWALEED export packaging"
+              loading="lazy"
+              decoding="async"
+              width="640"
+              height="440"
               className="h-[360px] w-full object-cover md:h-[440px]"
             />
           </div>

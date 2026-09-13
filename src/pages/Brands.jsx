@@ -16,6 +16,11 @@ const Brands = () => {
         <img
           src="/fruits.jpeg"
           alt="Fresh Egyptian produce"
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
+          width="1200"
+          height="800"
           className="absolute inset-0 -z-20 h-full w-full object-cover"
         />
         <div className="absolute inset-0 -z-10 bg-gradient-to-br from-brand-deep via-brand-deep/95 to-brand-green/65" />
@@ -47,6 +52,10 @@ const Brands = () => {
                 <img
                   src={brand.image}
                   alt={t(`brands.${brand.key}.name`)}
+                  loading="lazy"
+                  decoding="async"
+                  width="640"
+                  height="280"
                   className="h-full min-h-[280px] w-full object-cover"
                 />
               </div>

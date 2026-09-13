@@ -55,10 +55,17 @@ const Products = () => {
               key={key}
               className="group flex flex-col overflow-hidden rounded-2xl border border-brand-pale bg-white"
             >
-              <div
-                className="h-56 bg-cover bg-center transition duration-500 group-hover:scale-105"
-                style={{ backgroundImage: `url(${image})` }}
-              />
+              <div className="h-56 overflow-hidden">
+                <img
+                  src={image}
+                  alt={t(`products.${key}.name`)}
+                  loading="lazy"
+                  decoding="async"
+                  width="640"
+                  height="352"
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                />
+              </div>
               <div className="flex flex-1 flex-col p-5">
                 <h3 className="font-display text-2xl text-brand-deep">
                   {t(`products.${key}.name`)}

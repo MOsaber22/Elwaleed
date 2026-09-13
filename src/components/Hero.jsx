@@ -7,7 +7,15 @@ const Hero = () => {
       id="home"
       className="relative overflow-hidden bg-brand-deep pb-24 pt-36 text-brand-warm md:pb-32 md:pt-48"
     >
-      <div className="hero-background absolute inset-[-4%] bg-[url('/fruits.jpeg')] bg-cover bg-center" />
+      <img
+        src="/fruits.jpeg"
+        alt=""
+        aria-hidden="true"
+        fetchPriority="high"
+        width="1200"
+        height="800"
+        className="hero-background absolute inset-0 h-full w-full object-cover object-center"
+      />
       <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(3,33,25,.96)_0%,rgba(3,33,25,.78)_42%,rgba(3,33,25,.38)_100%)]" />
       <div className="absolute inset-0 bg-gradient-to-t from-brand-deep/80 via-transparent to-brand-deep/20" />
       <div className="container relative z-10">

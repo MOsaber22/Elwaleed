@@ -27,6 +27,10 @@ const OurFarms = () => {
             <img
               src="/location2.jpg"
               alt={t("ourFarms.title")}
+              loading="eager"
+              decoding="async"
+              width="640"
+              height="360"
               className="h-[280px] w-full object-cover md:h-[360px]"
             />
           </div>
@@ -50,6 +54,10 @@ const OurFarms = () => {
                   <img
                     src={location.image}
                     alt={t(`ourFarms.locations.${location.key}.name`)}
+                    loading="lazy"
+                    decoding="async"
+                    width="640"
+                    height="340"
                     className="h-full w-full object-cover"
                   />
                   <a
