@@ -16,14 +16,6 @@ const Leaderships = () => {
               {t("leaderships.heading")}
             </h1>
           </div>
-          <div className="h-[280px] overflow-hidden rounded-[2rem] border border-brand-pale/20 md:h-[360px]">
-            <img
-              src="/leadership1.jpeg"
-              alt={t("leaderships.waleedHammad.name")}
-              className="h-full w-full object-cover"
-              style={{ objectPosition: "center 42%" }}
-            />
-          </div>
         </div>
       </section>
       <Leadership detailed />
